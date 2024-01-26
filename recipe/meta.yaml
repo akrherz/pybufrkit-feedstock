@@ -1,5 +1,5 @@
 {% set name = "pybufrkit" %}
-{% set version = "0.2.21" %}
+{% set version = "0.2.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pybufrkit-{{ version }}.tar.gz
-  sha256: 87200614d7115fffda8e56f15052af6aa6ac3d065a442e5df48ce33392c2dbbd
+  sha256: eca84571baf65b791b281ad8cb791d426d4a9f7b39d5b94f095fab76e9ccdfcc
 
 build:
   entry_points:
